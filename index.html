@@ -1,0 +1,690 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>Foodies</title>
+
+  <!--Favicons-->
+  <link rel="icon" href="images/favicon.png">
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ 
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+
+  
+</head>
+
+<body>
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Imaginea lipseste"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Acasă</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Despre Noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-food">Vezi Meniu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Review-uri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rezervare">Rezervare</a>
+            </li>
+            <li><button class="main-btn">+373 799 689 83</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+   
+  <!-- section-1 top-banner -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Mâncarea Bună Este Cea mai Bună Investițiie.</h1>
+            <p>Un gust de care îți vei aminti cu drag, o calitate excepțională, un personal desăvîrșit, o atmosferă de neuitat .
+            </p>
+            <div class="mt-4">
+              <a class="main-btn" href="#explore-food">Comandă <i class="fas fa-shopping-basket ps-3"></i></a>
+              <a class="white-btn ms-lg-4 mt-lg-0 mt-4" href="#explore-food">Comandă <i class="fas fa-angle-right ps-3"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-2 counter -->
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count1"></span>+
+            </h2>
+            <p>CLIENȚI</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count2"></span>+
+            </h2>
+            <p>POZE</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count3"></span>+
+            </h2>
+            <p>COMENZI</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count4"></span>+
+            </h2>
+            <p>PREMII</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- section-3 about-->
+   <section id="about">
+     <div class="about-section wrapper">
+       <div class="container">
+         <div class="row align-items-center">
+           <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+             <div class="card border-0">
+               <img src="images/img/img-1.png" alt="Imaginea lipseste" class="img-fluid">
+             </div>
+           </div>
+           <div class="col-lg-5 col-md-12 text-sec">
+            <h2>Ne mândrim cu preparate autetice din cele mai bune ingrediente.</h2>
+            <p>Produsele noastre sunt proaspete și de o calitate excepțională. La noi calitatea este pe primul loc. Avem personal cu o experiență de cel puțin 5 ani în domeniu. </p>
+              <a class="main-btn mt-4" href="#explore-food">Vezi Preparate</a>
+           </div>
+         </div>
+       </div>
+       <div class="container food-type">
+         <div class="row align-items-center">
+           <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>Facem totul manual, cu cele mai bune ingrediente posibile.</h2>
+            <p>Povestea noastră magică s-a născut din dragostea de a oferi bucurii și emoții. Restaurantul nostru este unul dintre cele mai noi și selecte restaurante din Chișinău. Călătoria gusturilor unice începe cu cele mai savuroase prânzuri și cele mai delicioase preparate pentru o cină romantică.</p>
+            <ul class="list-unstyled py-3">
+              <li>Meniul nostru te surprinde cu o abordare modernă.</li>
+              <li>Amplsarea și decorațiile sunt la un alt nivel.</li>
+              <li>Avem personal bine instruit.</li>
+            </ul> 
+            <a class="main-btn mt-4" href="#explore-food">Mai Mult</a>
+           </div>
+           <div class="col-lg-7 col-md-12">
+             <div class="card border-0">
+               <img src="images/img/img-2.png" alt="Imaginea lipseste" class="img-fluid">
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+  <!-- section-3 story-->
+   <section id="story">
+     <div class="story-section">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-12">
+             <div class="text-content">
+              <h2>Nu există satisfacție mai mare ca atunci cand ești mulțumit de o cină bună.</h2>
+              <p>Băuturi alese, meniu all-inclusive, terasă și muzică live de calitate. Oferim servicii de livrare mâncare la domiciliu zilnic între 09:00 - 23:00..</p>
+                <button class="main-btn mt-3">Mai Mult</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+  <!-- section-4 explore food-->
+   <section id="explore-food">
+     <div class="explore-food wrapper">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-12">
+             <div class="text-content text-center">
+              <h2>Vezi Meniul Nostru</h2>
+              <p>Meniul nostru de mâncare te surprinde cu o abordare modernă. Un amestec de clasic și contemporan, plin de gust, savoare, băuturi fine și farmec citadin. Restaurantul te întampină cu o armonie estetică de excepție și bucate perfecte pentru gustul tău. Gătim din cele mai proaspete ingrediente.
+              </p>
+             </div>
+           </div>
+         </div>
+         <div class="row pt-5">
+           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+             <div class="card">
+               <img src="images/img/img-3.jpg" alt="Imaginea lipseste" class="img-fluid">
+               <div class="pt-3">
+                <h4>Sandwich Curcubeu</h4>
+                <p>Timp: 15 - 20 Minute | Porție: 1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+             </div>
+           </div>
+           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="images/img/img-4.jpg" alt="Imaginea lipseste" class="img-fluid">
+              <div class="pt-3">
+                <h4>Burger Vegetarian</h4>
+                <p>Timp: 30 - 45 Minute | Porție: 1</p>
+                <span>$9.20<del>$10.50</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="images/img/img-5.jpg" alt="Imaginea lipseste" class="img-fluid">
+              <div class="pt-3">
+                <h4>Raspberry Stuffed French Toast</h4>
+                <p>Timp: 10 - 15 Minute | Porție: 1</p>
+                <span>$12.50<del>$13.20</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+            </div>
+            </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 pt-5">
+            <div class="card">
+              <img src="images/img/img-6.jpg" alt="Imaginea lipseste" class="img-fluid">
+              <div class="pt-3">
+                <h4>Pizza</h4>
+                <p>Timp: 30 - 45 Minute | Porție: 1</p>
+                <span>$8.20<del>$9.50</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 pt-5">
+            <div class="card">
+              <img src="images/img/img-7.jpg" alt="Imaginea lipseste" class="img-fluid">
+              <div class="pt-3">
+                <h4>Steak</h4>
+                <p>Timp: 30 - 45 Minute | Porție: 1</p>
+                <span>$11.20<del>$12.30</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 pt-5">
+            <div class="card">
+              <img src="images/img/img-8.png" alt="Imaginea lipseste" class="img-fluid">
+              <div class="pt-3">
+                <h4>Sushi</h4>
+                <p>Timp: 30 - 45 Minute | Porție: 1</p>
+                <span>$11.20<del>$12.50</del></span>
+                <a href="#contact" class="mt-4 main-btn"> Comandă</a>
+              </div>
+            </div>
+          </div>
+     </div>
+     </div>
+     </div>
+   </section>
+
+  <!-- Section-5 testimonial-->
+   <section id="testimonial">
+     <div class="wrapper testimonial-section">
+       <div class="container text-center">
+         <div class="text-center pb-4">
+           <h2>Review-uri</h2>
+         </div>
+         <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="images/review/review-1.jpg" alt="Imaginea lipseste">
+                    <p>"
+                      Mă simt foarte bine aici! Unul dintre cele mai preferate restaurante din Chișinău! Revin, în special, pentru burgerul suculent și un păhar de Feteasca Neagră. Vinurile sunt bine alese, iar în tot Chișinăul nu am mâncat ceva mai bun.
+                      . "</p>
+                    <h5>Mihail Dohn - Antreprenor</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="images/review/review-2.jpg" alt="Imaginea lipseste">
+                    <p>"
+                      O experiență superbă! Ambianța foarte plăcută, meniu variat, servire excelentă! Un restaurant foarte fain și super cozy, perfect pentru a petrece cu familia sau prietenii..
+                       "</p>
+                    <h5>Angelina Jolie - Contabil</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="images/review/review-3.jpg" alt="Imaginea Lipseste">
+                    <p>"Restaurantul arată superb, mi-a plăcut încă de la intrare. Personal foarte amabil și politicos, am fost întâlnit cu zâmbet pe buze. Servire de excepție, atmosferă super cool. "</p>
+                    <h5>Juri Boyka - Programator</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
+
+  <!-- section-6 faq-->
+   <section id="faq">
+     <div class="faq wrapper">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-12">
+             <div class="text-center pb-4">
+              <h2>Întrbări Adresate Frecvent</h2>
+             </div>
+           </div>
+         </div>
+         <div class="row pt-5">
+           <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Aș dori să organizez o masă pentru o petrecere, cum o pot face??</h4>
+            <p>Vă rugăm să ne contactați, spunându-ne toate cerințele dumneavoastră, vom reveni cu cea mai bună ofertă
+              Telefon: +373 799 445743 e-mail foodies@gmil.com.
+            </p>
+           </div>
+           <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Poți amâna o programare?</h4>
+            <p>Da, desigur! Contactați-ne în avans pentru a vă putea satisface solicitarea. Vrem ca serviciile noastre să răspundă nevoilor dvs. și vom depune toate eforturile pentru a face schimbările adecvate în funcție de nevoile dvs.
+            </p>
+           </div>
+           <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Care sunt specialitățile restaurantului??</h4>
+            <p>Avem o gamă completă de meniu, de la mâncăruri din pește la carne, toate proaspete și de sezon. Vă sugerăm cu căldură farfuriile noastre regionale!.
+            </p>
+           </div>
+           <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Am o restricție alimentară, pot să iau masa??</h4>
+            <p>Desigur! Vom fi bucuroși să vă ajutăm și să vă propunem preparate care vă pot fi potrivite. Preparatele noastre pot fi adapatate pentru orice necesitate
+            </p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   
+
+  <!-- section-7 book-food-->
+   <section id="book-food">
+     <div class="book-food">
+       <div class="container book-food-text">
+         <div class="row text-center">
+           <div class="col-lg-9 col-md-12">
+            <h2>Făcut Cu Pasiune, Din Pasiune și Perfecționism.</h2>
+           </div>
+           <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+             <button class="main-btn">Mai Mult</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <!-- Section-8 Chefs Section -->
+   <section id="chefs" class="chefs">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title text-center mt-3">
+        <h2>Chefi</h2>
+        <p>Chefii Noștri Profesioniști</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+            <img src="images/chefs/chefs-1.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Pavel Ciobanu</h4>
+                <span>Master Chef</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member" data-aos="zoom-in" data-aos-delay="200">
+            <img src="images/chefs/chefs-2.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Angela Rusu</h4>
+                <span>Patissier</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member" data-aos="zoom-in" data-aos-delay="300">
+            <img src="images/chefs/chefs-3.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Gheorghe Boyka</h4>
+                <span>Bucătar</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+   
+   <!--Section-9 book-a-table-->
+   <section id="rezervare">
+     <div class="wrapper book-a-table">
+
+
+    <div class="container" data-aos="fade-up">
+
+
+      <div class="col-sm-12">
+        <div class="text-center pt-4 pb-4">
+         <h2>Rezervă o Masă</h2>
+        </div>
+      </div>
+
+      <form  method="post" class="email-form" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Numele tău" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email-ul tău" data-rule="email" data-msg="Introdu un Email valid">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefon" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" name="date" class="form-control" id="date" placeholder="Data" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" class="form-control" name="time" id="time" placeholder="Oră" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="number" class="form-control" name="people" id="people" placeholder="Numărul de Persoane" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+            <div class="validate"></div>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Mesaj"></textarea>
+          <div class="validate"></div>
+        </div>
+
+        <button class="white-btn mt-3" type="submit">Rezervă o Masă</button>
+      </form>
+
+    </div>
+  </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+
+    <div class="container" data-aos="fade-up">
+
+      <div class="col-sm-12">
+        <div class="text-center pt-4 pb-4">
+         <h2>Galerie</h2>
+         <p>Câteva Fotografii De La Restaurantul Nostru</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row g-0">
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-1.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-2.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-3.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-4.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-5.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-6.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-7.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="images/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+              <img src="images/gallery/gallery-8.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- section-10 Contact-->
+  <section id="contact" class="contact pb-4">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title text-center mt-3">
+        <h2>Contact</h2>
+        <p>Contactează-ne</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up">
+      <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87129.39972957716!2d28.835214901920242!3d46.96574239579452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c979a048997b3f%3A0x175cf2f67544668b!2sSectorul%20Botanica%2C%20Chi%C8%99in%C4%83u%2C%20Moldova!5e0!3m2!1sen!2s!4v1653289546236!5m2!1sen!2s" allowfullscreen></iframe>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+
+      <div class="row mt-5">
+
+        <div class="col-lg-4">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Locație:</h4>
+              <p>A108 Chișinău, Botanica, MD 535022</p>
+            </div>
+
+            <div class="open-hours">
+              <i class="bi bi-clock"></i>
+              <h4>Ore De Lucru:</h4>
+              <p>
+                Luni-Duminică:<br>
+                8:00 - 23:00
+              </p>
+            </div>
+
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>foodies@restaurant.com</p>
+            </div>
+
+            <div class="phone">
+              <i class="bi bi-phone"></i>
+              <h4>Telefon:</h4>
+              <p>+373 799 4487 1</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+
+          <form method="post" class="email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="nume" placeholder="Nume" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="emaill" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subiect" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="8" placeholder="Mesaj" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Încărcare</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Mesajul Dvs. a Fost Trimis cu Succes!</div>
+            </div>
+            <div class="text-center"><button type="submit">Trimite Mesajul</button></div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- section-11 footer-->
+  <footer id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#">Înregistrare</a>
+            <a class="footer-link" href="#">Forum</a>
+            <a class="footer-link" href="#">Afiliere</a>
+            <a class="footer-link" href="#">FAQ</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">© 2022. Foodies. All rights reserved (Roabiș Cristian).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+  <!-- own js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
